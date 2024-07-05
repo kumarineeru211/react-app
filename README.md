@@ -1,4 +1,4 @@
-git clone (https://github.com/kumarineeru211/react-app)
+git clone (https://github.com/kumarineeru211/react-app.git)
 cd Book-lib
 
 ##  Install dependencies
