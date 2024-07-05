@@ -1,0 +1,124 @@
+.left-banner {
+  position: relative;
+}
+
+
+.banner-image.img-fluid {
+  height: 100% !important; /* Override height auto */
+  width: 100%;
+  margin-left: -11px;
+}
+
+
+.banner-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 2rem;
+}
+
+.form-section.col-md-5 {
+  
+  width: 42.65%;
+}
+
+.form-section {
+  padding: 10px;
+  margin-left: -23px;
+  background-color: #f8f9fa;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px; /* Set a fixed height for all carousel images */
+  object-fit: cover; /* Ensure images cover the set dimensions without distortion */
+}
+
+.testimonials {
+  margin-top: 20px;
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.testimonial-img {
+  
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  
+  
+}
+.faq-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testimonial-card .card-img-top {
+width: 50px;
+margin: 20px;
+ 
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-logo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo h1 {
+  margin: 10px 0;
+}
+
+@media (max-width: 768px){
+  .banner-image{
+    height: auto !important;
+  }
+}
+/* 
+@media (min-width: 768px) {
+  .form-section.col-md-5 {
+    flex: 0 0 auto;
+    width: 43.65%;
+  }
+} */
